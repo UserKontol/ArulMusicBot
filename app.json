@@ -2,7 +2,7 @@
     "name": "Skyzo Music",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/ridho17-ind/SkyzoMusicBot",
+    "repository": "https://github.com/userkontol/SkyzoMusicBot",
     "stack": "container",
     "env": {
          "SESSION_NAME": {
@@ -12,7 +12,7 @@
          "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "Isi Id Lu"
+            "value": "1878075436"
          },
          "BOT_IMG": {
             "description": "Photo for your bot",
@@ -52,7 +52,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "Isi Id Lu Juga Sebagai Sudo User"
+            "value": "1878075436 1867048626 1867048626"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
@@ -71,7 +71,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "If you dont know this, Leave as it is",
-            "value": "https://github.com/ridho17-ind/SkyzoMusicBot",
+            "value": "https://github.com/userkontol/SkyzoMusicBot",
             "required": true
         },
         "UPSTREAM_BRANCH": {
@@ -82,12 +82,12 @@
         "CHANNEL": {
             "description": "Fill in using your channel username without @",
             "required": true,
-            "value": "SadRoomsInfo"
+            "value": "UpdateMorderd"
         },
         "GROUP": {
             "description": "Fill in using your channel username without the @",
             "required": true,
-            "value": "FlicksRobotSupport"
+            "value": "wibu_telegram"
         }
     },
     "buildpacks": [
